@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Barra superior */
+.top-bar {
+    background-color: #DDF1D2;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+/* Encabezado principal */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-bar {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.header-center .logo {
+    height: 50px;
+}
+
+.header-right i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Cuerpo principal */
+main {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
