@@ -12,15 +12,13 @@ body {
     color: #333;
 }
 
-/* Barra superior */
-.top-bar {
+.banner1 {
     background-color: #DDF1D2;
     text-align: center;
     padding: 5px 0;
     font-size: 14px;
 }
 
-/* Encabezado principal */
 header {
     display: flex;
     justify-content: space-between;
@@ -29,40 +27,44 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-.header-left {
+.bloque-izq {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.nav{
+    height: 30px;
+}
+
+.buscador {
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
-.menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.search-bar {
+.barra-buscador {
     padding: 5px 15px;
     border-radius: 20px;
     border: 1px solid #ccc;
     width: 200px;
 }
 
-.header-center .logo {
+.contenedor-lgo .logo {
     height: 50px;
 }
 
-.header-right i {
-    font-size: 20px;
-    margin-left: 15px;
-    cursor: pointer;
+.iconos-header .iconos {
+    margin-left: 5px;
+    height: 25px;
 }
 
-/* Cuerpo principal */
 main {
-    padding: 20px;
+    padding: 200px;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: white;
